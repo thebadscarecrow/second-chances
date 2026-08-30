@@ -5095,3 +5095,10 @@ background-image: -webkit-linear-gradient(55deg, var(--color1), var(--color2));
 .field-image > .field_separator, .field-pseudo > .field_separator, .field-avatar > .field_separator, .field-wons > .field_separator, .field-messages > .field_separator {
     display: none;
 }
+
+.postdetails.poster-profile .field-icones > .field_content {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 5px;
+}
