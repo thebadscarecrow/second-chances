@@ -5060,6 +5060,51 @@ text-align: justify;
   transition: 1s;
 }
 
+.sc-pa-news ul.news-scrollable li, .sc-pa-pl ul.pl-scrollable li {
+ background:  var(--bg2);
+}
+.staff-info-avatar img {
+ margin: 0; 
+}
+
+.sc-qeel-groups-stats .sc-qeel-background {
+ overflow: hidden; 
+  padding: 4px;
+}
+.sc-qeel-new #qeel_last {
+    padding: 8px;
+}
+.sc-qeel-48.sc-qeel-container, sc-qeel-online.sc-qeel-container {
+ text-align: justify; 
+}
+
+.page-title, sob1 {
+ text-transform: uppercase !important;
+  font-weight: 500 !important;
+}
+
+u {
+    text-underline-offset: 3px;
+    color: var(--color2) !important;
+}
+
+u2 {
+    text-decoration: underline 3px solid var(--color2) !important;
+}
+
+.cin_catstitre a.forumtitle, .cinnavbar i, .buttons, ul.profile-icons a, .color-scheme-toggle {
+background-image: -webkit-linear-gradient(55deg, var(--color1), var(--color2));
+}
+
+.color-scheme-toggle .icon i {
+ background-image: none; 
+}
+
+/*Correction sur les titres qui s'affichent en double dans les brouillons */
+.drafts-list .mobile-visible.lastpost-infos {
+    display: none;
+}
+
 /* Profils dans les messages */
 .field-image > .avatar_field_label, .field-pseudo > .avatar_field_label, .field-avatar > .avatar_field_label, .field-age > .avatar_field_label, .field-messages > .avatar_field_label {
     display: none;
