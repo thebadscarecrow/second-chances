@@ -2445,13 +2445,16 @@ button.rep-button .rep-nb {
 }
 
 #post_avatar_faceclaim {
-    display: flex;
+ display: flex;
     justify-content: center;
     font-family: var(--font3);
     text-transform: uppercase;
     font-size: var(--size4);
     font-weight: bolder;
     font-style: italic;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #post_avatar_tableau {
