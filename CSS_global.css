@@ -2684,37 +2684,20 @@ a.fa-mention {
   position: relative;
   top: 4px;
 }
-/* #post_avatar_pseudo #field_id:nth-child(-n+3), #post_avatar_pseudo #field_id:nth-child(n+5), #post_avatar_img #field_id:nth-child(-n+15), #post_avatar_img #field_id:nth-child(17), #post_avatar_img #field_id:nth-child(18), #post_avatar_faceclaim #field_id:nth-child(-n+4), #post_avatar_faceclaim #field_id:nth-child(n+6), #post_avatar_dollars #field_id:nth-child(-n+7), #post_avatar_dollars #field_id:nth-child(n+9), #post_avatar_messages #field_id:nth-child(-n+6), #post_avatar_messages #field_id:nth-child(n+8) {
-    display: none;
-}
- */
- #post_avatar_img #field_id, #post_avatar_pseudo #field_id, #post_avatar_faceclaim #field_id, #post_avatar_dollars #field_id, #post_avatar_messages #field_id {
-      display: none;
-    }
-    #post_avatar_img #field_id:nth-of-type(1) {display: block;}
-    #post_avatar_pseudo #field_id:nth-of-type(10) {display: block;}
-    #post_avatar_faceclaim #field_id:nth-of-type(12) {display: block;}
-    #post_avatar_dollars #field_id:nth-of-type(3) {display: block;}
-    #post_avatar_messages #field_id:nth-of-type(2) {display: block;}
-
-    .postdetails.poster-profile #field_id:nth-of-type(1), .postdetails.poster-profile #field_id:nth-of-type(10), .postdetails.poster-profile #field_id:nth-of-type(12), .postdetails.poster-profile #field_id:nth-of-type(3), .postdetails.poster-profile #field_id:nth-of-type(2) {display: none;}
 
     /* profil icones*/
-    .postdetails.poster-profile #field_id:nth-of-type(7) { display: flex; justify-content: space-between; margin: 10px 0;}
-    .postdetails.poster-profile #field_id:nth-of-type(8) { text-align: center; margin: 10px 0; font-family: var(--font6);}
+    .postdetails.poster-profile .field-icones { display: flex; justify-content: space-between; margin: 10px 0;}
+    .postdetails.poster-profile .field-citation { text-align: center; margin: 10px 0; font-family: var(--font6);}
   
-    .postdetails.poster-profile #field_id:nth-of-type(7) span.label, .postdetails.poster-profile #field_id:nth-of-type(8) span.label, .postdetails.poster-profile #field_id:nth-of-type(9) span.label { display: none;} /* remove labels for icon, quote and aes */
+    .postdetails.poster-profile .field-icones span.label, .postdetails.poster-profile .field-citation span.label, .postdetails.poster-profile #field_id:nth-of-type(9) span.label { display: none;} /* remove labels for icon, quote and aes */
 
-    .postdetails.poster-profile #field_id:nth-of-type(7) img { width: 65px; height: 65px; object-fit: cover; border-radius: 4px;}
+    .postdetails.poster-profile .field-icones img { width: 65px; height: 65px; object-fit: cover; border-radius: 4px;}
 
 #post_avatar_faceclaim:before {
     content: 'ft.';
     margin-right: 5px;
 }
 
-/*.profil-cache #field_id:nth-child(4),.profil-cache #field_id:nth-child(3),.profil-cache #field_id:nth-child(5),.profil-cache #field_id:nth-child(7),.profil-cache #field_id:nth-child(8),.profil-cache #field_id:nth-child(16) {
-    display: none;
-} */
 .profil-tw{
     opacity:0;
     border-radius:4px;
