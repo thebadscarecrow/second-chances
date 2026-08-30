@@ -5106,9 +5106,9 @@ background-image: -webkit-linear-gradient(55deg, var(--color1), var(--color2));
 }
 
 /* Profils dans les messages */
-.field-image > .avatar_field_label, .field-pseudo > .avatar_field_label, .field-avatar > .avatar_field_label, .field-age > .avatar_field_label, .field-messages > .avatar_field_label {
+.field-image > .field_label, .field-pseudo > .field_label, .field-avatar > .field_label, .field-wons > .field_label, .field-messages > .field_label, .field-icones > .field_label, .field-citation > .field_label, .field-aes > .field_label {
     display: none;
 }
-.field-image > .avatar_field_separator, .field-pseudo > .avatar_field_separator, .field-avatar > .avatar_field_separator, .field-age > .avatar_field_separator, .field-messages > .avatar_field_separator {
+.field-image > .field_separator, .field-pseudo > .field_separator, .field-avatar > .field_separator, .field-wons > .field_separator, .field-messages > .field_separator {
     display: none;
 }
