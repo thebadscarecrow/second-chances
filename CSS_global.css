@@ -55,7 +55,7 @@ body a:hover {
 }
 
 .main_forum {
-    background-color: var(--color1);
+    background-color: var(--couleurBody);
     padding: 10px;
     width:940px;
     margin: 0px auto;
