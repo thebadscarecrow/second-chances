@@ -2693,7 +2693,7 @@ a.fa-mention {
 
     .postdetails.poster-profile .field-icones img { width: 65px; height: 65px; object-fit: cover; border-radius: 4px;}
 
-#post_avatar_faceclaim:before {
+#post_avatar_faceclaim:has(div):before {
     content: 'ft.';
     margin-right: 5px;
 }
