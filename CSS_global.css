@@ -7,7 +7,7 @@
 
 body, html {
     background-attachment: fixed;
-    background-color: var(--fond);
+    background: url(), var(--fond);
     background-position: center center;
     scroll-behavior: smooth;
     line-height: 1.35;
@@ -16,7 +16,7 @@ body, html {
 }
 
 [data-color-scheme="dark"] body, html {
-     background-color: var(--fond);
+    background: url(), var(--fond);
 }
 
 
