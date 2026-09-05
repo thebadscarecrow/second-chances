@@ -1643,7 +1643,7 @@ ttc:hover {
     flex-wrap: wrap;
     min-height: 360px;
     padding: 10px;
-    width: 1020px;
+    width: 100%;
     border-radius: 4px 4px 0 0;
     backdrop-filter: blur(4px)
 }
@@ -1690,7 +1690,7 @@ ttc:hover {
 .cinml_titre {
     padding: 20px;
     margin-bottom: 20px;
-    width: 1020px;
+    width: 100%;
     border-radius: var(--border1);
     text-align: center;
     font-size: 30px;
@@ -1710,15 +1710,16 @@ ttc:hover {
     margin: 4px;
     margin-bottom:30px;
     display: block;
-    width: 192px;
-    height: 320px;
+    width: 217px;
+    height: 345px;
 }
 
 .cinml_card img {
     border-radius: 10px;
     margin-top: 10px;
-    height: 300px;
-    width:192px;
+    height: 325px;
+    width:217px;
+	max-width: 217px !important;
     object-fit:cover;
 }
 
@@ -1772,10 +1773,10 @@ ttc:hover {
     border-radius: 10px;
     display: flex;
     position: relative;
-    top: -307px;
+    top: -332px;
     left: 0px;
-    width: 192px;
-    height: 300px;
+    width: 217px;
+    height: 325px;
     transition: var(--allease);
     align-content: center;
     flex-wrap: wrap;
@@ -1814,7 +1815,7 @@ ttc:hover {
 
 /*--------- MESSAGES PRIVES ---------*/
 #sob_mpmenu {
-    width: 1020px;
+    width: 100%;
     padding: 10px 0px;
     text-align: center;
     text-transform: uppercase;
@@ -3138,7 +3139,7 @@ hr {
 }
 
 #sujreview {
-    width: 1020px;
+    width: 100%;
 }
 
 #ttreview {
@@ -3809,7 +3810,7 @@ tw:hover{
 
 .SOB_prof {
     margin:auto;
-    width:1020px;
+    width:100%;
     background: var(--bg3);
     backdrop-filter: blur(2px);
     border-radius: 6px;
@@ -4465,7 +4466,7 @@ info{
 
 #SOB_pvwrapped {
     background: var(--transp2);
-    width: 1020px;
+    width: 100%;
     border-radius: 4px;
     padding: 0px 0px 4px 0px;
     backdrop-filter: blur(4px);
