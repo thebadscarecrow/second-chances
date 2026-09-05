@@ -563,7 +563,7 @@ a:link,a:hover,a:visited,a:active {
 
 /* ----- CONNEXION RAPIDE ----- */
 #quickloginform_overlay {
-    background-color: var(--white1);
+    background-color: var(--pureblack);
     height: 100%;
     left: 0;
     opacity: 0.7;
