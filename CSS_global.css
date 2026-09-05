@@ -68,6 +68,10 @@ body a:hover {
     z-index:1;
 }
 
+.panel.sc-confirm-panel form p {
+    text-align: center;
+}
+
 .inner {
     background: var(--transp2);
     padding: 10px 20px;
