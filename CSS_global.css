@@ -3765,6 +3765,15 @@ tw:hover{
     .sc_member_basic {
       text-align: center;
     }
+
+	.sc_member_corporations dl {
+	  margin-top: 0;  
+	}
+	
+	.field-corporations .field_uneditable {
+	    display: flex;
+	    gap: 5px;
+	}
     .sc_member_corporations img {
       margin: 0;
       width: 80px;
