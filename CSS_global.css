@@ -589,7 +589,7 @@ a:link,a:hover,a:visited,a:active {
 }
 
 #quickloginform input[type="password"],#quickloginform input[type="text"] {
-    background: var(--white1) none repeat scroll 0 0;
+    background: var(--pureblack) none repeat scroll 0 0;
     border: 0 none;
     text-transform: uppercase;
     box-sizing: border-box;
