@@ -2048,10 +2048,12 @@ input[type="submit"]:hover, input[type="button"]:hover, input[type="hidden"]:hov
 }
 
 fieldset.submit-buttons {
+    display: flex;
     justify-content: center;
     text-align: center;
     margin: 20px;
     padding-bottom: 20px;
+    gap: 10px;
 }
 
 /*--------- LISTE DES SUJETS ---------*/
