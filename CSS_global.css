@@ -2966,10 +2966,12 @@ cite {
 #tabs ul {
     font-weight: 900;
     display: flex;
-    justify-content: space-between;
-    margin: 150px 10px 10px 10px;
+    justify-content: space-evenly;
+    margin: 150px 0 10px 0;
     font-size: var(--size4);
     text-transform: uppercase;
+    flex-wrap: wrap;
+    row-gap: 10px;
 }
 
 #tabs ul a {
