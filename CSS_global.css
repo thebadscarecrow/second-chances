@@ -68,7 +68,7 @@ body a:hover {
     z-index:1;
 }
 
-.panel.sc-confirm-panel form p {
+.panel.sc-confirm-panel form p, .msgdie-panel p {
     text-align: center;
 }
 
