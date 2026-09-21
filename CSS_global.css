@@ -4447,13 +4447,12 @@ info{
     background: var(--bg3);
     margin-top: 15px;
     position: relative;
-    left: 565px;
+    left: 485px;
 }
 .MP_buttons a{
     color:var(--purewhite):
 }
 .MP_head {
-    width: 760px;
     font-size: var(--size3);
     border-bottom: 1px solid var(--bg3)
 }
