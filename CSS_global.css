@@ -1613,7 +1613,7 @@ ttc:hover {
     font-weight: 500;
 }
 .sc-qeel-groups-info span:after {
-    content: ' â‡ï¸Ž';
+    content: ' »';
 }
 .sc-qeel-groups-info span.credits { color: var(--color2); }
 .sc-qeel-groups-info span.sagwa { color: var(--sagwa); }
