@@ -2778,6 +2778,10 @@ label {
     text-transform: uppercase;
 }
 
+#message-box {
+    width: 650px !important;
+}
+
 textarea {
     font-family: var(--font3)!important;
     width: auto;
