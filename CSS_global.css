@@ -7,8 +7,7 @@
 
 body, html {
     background-attachment: fixed;
-    /*background: url(), var(--fond);*/
-	background: var(--bgimg);
+    background: var(--fond);
     background-position: center center;
     scroll-behavior: smooth;
     line-height: 1.35;
