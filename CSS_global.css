@@ -7,7 +7,8 @@
 
 body, html {
     background-attachment: fixed;
-    background: url(), var(--fond);
+    /*background: url(), var(--fond);*/
+	background: var(--bgimg);
     background-position: center center;
     scroll-behavior: smooth;
     line-height: 1.35;
@@ -5030,10 +5031,6 @@ titresc, titresc2, sttsc, sparksc {
 }
 citationsc {
  text-decoration: underline 1px solid var(--color3); 
-}
-
-.block_haut:before, .blockc_haut:before, .blockb_haut:before, .block_haut_2::before {
- background: var(--bgimg); 
 }
 
 .block_haut_2::before, .blockc_haut>h2, .blockc_haut_2 >h2, .fiche_rp3 quote, .fiche_rp2 quotet, .fiche_rp4 quote {
