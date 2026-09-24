@@ -4340,7 +4340,7 @@ a[href*="/profile?mode=email&u=1"] {
       gap: 10px;
     }
     .sc-pres-story-img img {
-      width: 300px;
+      width: 49%;
       height: 200px;
       object-fit: cover;
       border-radius: 4px;
